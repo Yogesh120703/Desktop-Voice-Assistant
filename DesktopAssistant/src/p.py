@@ -1,7 +1,7 @@
 import os
 import openai
 from actions import speak
-openai.api_key = "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"
+openai.api_key = "api-key"
 def play(ask):
     #ask =input("Questions: ")
     response = openai.Completion.create(
